@@ -1,0 +1,10 @@
+<!-- di index.html -->
+<div id="qrcode"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+  var qrcode = new QRCode("qrcode", {
+    text: "https://appstreamlive.com/tiket/12345",
+    width: 128,
+    height: 128,
+  });
+</script>
